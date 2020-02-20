@@ -92,3 +92,5 @@ app.use('/viatges', router);
 app.listen(process.env.PORT || 3000 ,function(){
     console.log("up and running on port "+process.env.PORT);
 });
+
+socket = io.listen(process.env.PORT);
