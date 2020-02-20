@@ -81,3 +81,5 @@ setInterval(() => {
             //console.log(results);
     });
 },1000);//RUNS EVERY 1 SECONDS
+
+.listen(process.env.PORT || 5000)
