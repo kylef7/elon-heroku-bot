@@ -97,7 +97,7 @@ const fetch = require("node-fetch");
 
 const wakeUpDyno = (url, interval = 25, callback) => {
     const milliseconds = interval * 60000;
-    const url = "https://github.com/kylef7/elon-heroku-bot";
+  
     setTimeout(() => {
 
         try {
@@ -106,7 +106,7 @@ const wakeUpDyno = (url, interval = 25, callback) => {
             fetch(url).then(() => console.log(`Fetching ${url}.`));
         }
         catch (err) { // catch fetch errors
-            console.log(`Error fetching ${url}: ${err.message} 
+            console.log(`Error fetching ${url}: ${err.message}
             Will try again in ${interval} minutes...`);
         }
         finally {
