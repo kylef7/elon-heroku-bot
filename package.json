@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kylef7/elon-heroku-bot#readme",
   "dependencies": {
+    "async": "^3.1.1",
     "cheerio": "^1.0.0-rc.3",
     "discord.js": "^11.5.1",
     "request": "^2.88.2"
