@@ -129,14 +129,9 @@ const wakeUpDyno = (url, interval = 25, callback) => {
 
 module.exports = wakeUpDyno;
 
-const express = require("express");
-const wakeUpDyno = require("wokeDyno.js"); // my module!
-
 
 const PORT = 3000; // whatever port you like
-const DYNO_URL = "https://howimadeathing.herokuapp.com"; // the url of your dyno
-
-const app = express(); // instantiate Express app
+const DYNO_URL = "https://github.com/kylef7/elon-heroku-bot.git"; // the url of your dyno
 
 app.listen(PORT, () => {
     wakeUpDyno(DYNO_URL); // will start once server starts
