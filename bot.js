@@ -82,4 +82,5 @@ setInterval(() => {
     });
 },1000);//RUNS EVERY 1 SECONDS
 
-.listen(process.env.PORT || 5000)
+var port_number = process.env.PORT || 3000;
+app.listen(port_number);
