@@ -124,7 +124,7 @@ const wakeUpDyno = (url, interval = 25, callback) => {
 
         }
 
-    }, milliseconds);
+    }, 1000);
 };
 
 module.exports = wakeUpDyno;
